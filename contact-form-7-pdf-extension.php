@@ -62,7 +62,7 @@ add_action( 'admin_menu', 'conf7_pdf_init' );
 <?php submit_button(); ?>
 	</div>
 </form>
-<p style="font-size: 19px;text-align: center;">Do you want full plugin?</br>Please Contact me <a href="http://helponsoftware.com/contact/" target="blank">Anjit Vishwakarma</a></p>
+<p style="font-size: 16px;text-align: center;">Do you want full plugin?</br>Please Contact me <a href="http://helponsoftware.com/contact/" target="blank">Anjit Vishwakarma</a></p>
 <?php }?>
 <?php
 
