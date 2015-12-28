@@ -104,7 +104,7 @@ add_action( 'wpcf7_before_send_mail', 'send_conf7_attachment_file',10, 1 );
 	unset($data[_wpcf7_is_ajax_call]);
 	unset($data[_wpcf7_unit_tag]);
 	
-	// making the html
+	// making the html this will change in another version
 
 	$html .='<h2>Submitted Form Data</h2>';
 	$html .='<table align="center" border="1">';
