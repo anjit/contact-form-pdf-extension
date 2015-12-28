@@ -132,7 +132,7 @@ add_action( 'wpcf7_before_send_mail', 'send_conf7_attachment_file',10, 1 );
  	//Let'go to the file attachment!
 
 	// $pdf_filename with the extenstion not just the filename
- 	$pdf_filename = "from".get_option( 'form_id' ).".pdf";
+ 	$pdf_filename = "form".get_option( 'form_id' ).".pdf";
 
 	// geting the real mail /////
 	$mail = $cf7->prop('mail');  
